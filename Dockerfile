@@ -6,4 +6,4 @@ COPY ./sample.rb /var/www/sample.rb
 
 RUN echo "building..."
 
-CMD docker exec -i -t sample-image bash
+CMD ruby sample.rb
